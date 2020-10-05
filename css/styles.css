@@ -1,0 +1,44 @@
+.mainNav{
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-color: red;
+}
+
+.navOption{
+  border-style: solid;
+  border-color: yellow;
+  background-color: #f1f1f1;
+  width: 33%;
+  margin: .5%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.mainDisplay{
+  border-style: solid;
+  border-color: orange;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+
+}
+
+.displaySection{
+  border-style: solid;
+  border-color: green;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+
+#firstSection{
+  width: 40%;
+}
+#secondSection{
+  width: 60%;
+}
